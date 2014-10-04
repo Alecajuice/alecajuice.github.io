@@ -1,0 +1,33 @@
+---
+layout: home
+title: Mentors
+permalink: mentors/
+---
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- Header -->
+    <h2>Mentors</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <!-- Subheader -->
+    <h5>Our mentors provide support and assistance to team members and are a vital part of our team.</h5>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
+      {% for mentor in site.data.mentors %}
+      <li>
+	<h4>{{ mentor.name }}</h4>
+	<p>{{ mentor.bio }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>			

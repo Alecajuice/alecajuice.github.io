@@ -28,5 +28,5 @@ tr:last-child td:last-child {
 }
 @font-face {
     font-family: teamfortress;
-    src: url(/assets/fonts/tf2build.ttf) format('truetype');
+    src: url(tf2build.ttf) format('truetype');
 }

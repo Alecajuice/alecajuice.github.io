@@ -1,0 +1,8 @@
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor"]
+name: Paly Robotics
+markdown: redcarpet
+pygments: true
+relative_permalinks: true
+analytics:
+  code: UA-47036829-1
+  url: palyrobotics.com

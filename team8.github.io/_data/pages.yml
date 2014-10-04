@@ -1,0 +1,29 @@
+# for the top and side nav
+
+about:
+  -
+    name: Groups
+    link: /about/groups
+  -
+    name: FIRST
+    link: /about/FIRST
+  -
+    name: Sponsors
+    link: /about/sponsors
+  -
+    name: Join
+    link: /about/join
+  -
+    name: Our Lab
+    link: /about/lab
+
+other:
+  -
+    name: Calendar
+    link: /calendar
+  -
+    name: Resources
+    link: /resources
+  -
+    name: Contact Us
+    link: /contact

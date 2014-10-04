@@ -1,0 +1,37 @@
+# for /about/groups
+
+-
+  stagger: 0
+  image: /assets/img/photos/groups/build.jpg
+  name: Build
+  description: The Build Team is in charge of &mdash; you guessed it &mdash; building the robot! Thanks to Team 8's plethora of tools, such as a laser cutter, CNC mill, drill press, and chop saw, Build Team members are able to construct the robot from the bottom up! Due to the potentially dangerous nature of construction, all of our Build Team members have passed a comprehensive safety exam.
+-
+  stagger: 1
+  image: /assets/img/photos/groups/programming.jpg
+  name: Programming
+  description: Without programming, a robot would be no more than a very fancy, very large paper weight. It is the Programming Team's job to write the code, transforming our robot from a static hunk of metal to an advanced, competent machine. Using C++, the Programming Team works in tandem with the Build Team in order to make the robot competition ready, coding for both autonomous running as well as through human controllers.
+-
+  stagger: 0
+  image: /assets/img/photos/groups/animation.jpg
+  name: Animation
+  description: What does animation have to do with robotics, you may ask? Well, in addition to hosting the classic regional and national robotics competitions, FIRST also holds an annual animation contest! Our Animation Team works together to create short videos for this competition using Autodesk 3D animation software.
+-
+  stagger: 1
+  image: /assets/img/photos/groups/pr.jpg
+  name: Public Relations
+  description: Our Public Relations Team is in charge of PR matters such as this one. Team 8's PR Team works year-round to reach out to sponsors, organize presentations, advertise robotics around school, and save kittens from burning buildings (okay, maybe not that last one).
+-
+  stagger: 0
+  image: /assets/img/photos/groups/projectmanagement.jpg
+  name: Project Management
+  description: Our Project Manager keeps the team organized, creating spreadsheets outlining every team member's responsibilities and projects. Project Management checks up on progress regarding ongoing tasks, and makes sure everything is on schedule.
+-
+  stagger: 1
+  image: /assets/img/photos/groups/labmanagement.jpg
+  name: Lab Management
+  description: Team 8's Lab Manager runs things in the lab during work days. Looking for a tool? Ask the Lab Manager. Wondering where you can find the Programming Captain? Ask the Lab Manager.  Lab Management is what keeps the lab from dissolving into chaos, making sure everything is put away in its correct place, checking to see if people are wearing safety goggles in the cage, and keeping all of us rowdy roboticists under control.
+-
+  stagger: 0
+  image: /assets/img/photos/groups/webteam.jpg
+  name: Web
+  description: The Web Team is in charge of creating and maintaining Team 8's beautiful website, palyrobotics.com. Additionally, our Web Team members work closely with Project Management to create and manage servers for our Programming Team.

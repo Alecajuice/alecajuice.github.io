@@ -1,0 +1,51 @@
+---
+layout: home
+title: Mini-Classes
+permalink: miniclasses/
+---
+
+<div class="row">
+  <div class="12 columns">
+    <!-- Header -->
+    <h2>Mini-Classes</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <!-- About mini-classes -->
+    <h5>About Mini-Classes</h5>
+    <p> {{ site.data.page_miniclass.text }} </p>
+    <br />
+    <h5>To Be Determined</h5>
+    <ul>
+      <li>Git shell tutorials</li>
+      <li>Laser cutter basics</li>
+    </ul>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <!-- Picture -->
+    <img src= {{ site.data.page_miniclass.image }} />
+    <br class="show-for-medium-up" />
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <table width="100%">
+      {% for day in site.data.page_miniclass.days %}
+      <tr>
+	<td>
+	  <strong>{{ day.name }}</strong>
+	</td>
+	{% for class in day.classes %}
+	<td>
+	  {{ class.name }}
+	</td>
+	{% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

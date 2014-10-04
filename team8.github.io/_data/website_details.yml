@@ -1,0 +1,11 @@
+# website details for /resources
+
+-
+  name: Provider
+  content: Heroku
+-
+  name: Web Framework
+  content: Foundation 5
+-
+  name: Content Management System
+  content: Jekyll

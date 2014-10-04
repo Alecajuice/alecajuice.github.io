@@ -1,0 +1,30 @@
+---
+layout: home
+title: Leaders
+permalink: leaders/
+---
+
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- Header -->
+    <h2>Paly Robotics Leaders</h2>
+  </div>
+</div>
+
+<br />
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- List of leaders -->
+    <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
+      {% for group in site.data.leaders %}
+      <li>
+	<img src="{{ leaders.image }}" width="100%">
+        <h4>{{ leaders.name }}</h4>
+        <p>{{ leaders.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+# for usage on the our lab page
+
+top_image: /assets/img/photos/lab/pano_1.jpg
+
+text: Our lab, managed by our lab manager, is divided into three sections; the cage, the Java shop and the yard. The cage is where we construct most of our robot. Here, members of the build team can be found constructing the parts for our robot. One can also find various tools including but not limited to a laser cutter, a CNC mill, and a drill press. The cage is managed by the cage manager. The Java shop houses the majority of our computers and is managed by the Java shop manager. Here, the programming team works on writing code for the robot. The web team also built this website in the Java shop. The yard is managed by the yard manager. The yard is our outdoor facility where we can assemble and store large parts of our robot. The shop also has a state of art table saw for cutting large pieces of wood.
+
+# this image is next to the text on large screens and right below it on small screens
+body_image_1: /assets/img/photos/photo/photo_3.JPG
+
+# this image is right below the text on large screens and right below image 1 on small screens
+body_image_2: /assets/img/photos/lab/cage.jpg
+
+# this image is below image 2 and to the left on large screens and just below image 2 on small screens
+body_image_3: /assets/img/photos/photo/photo_4.jpg
+
+# this image is below image 2 and to the right on large screens and just below image 3 on small screens
+body_image_4: /assets/img/photos/photo/photo_5.jpg
+
+bottom_image: /assets/img/photos/lab/pano_2.jpg
