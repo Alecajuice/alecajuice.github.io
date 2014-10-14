@@ -1,6 +1,7 @@
 var $table;
 $(function()
 {
+	writeJSON();
 	$table = $("#buylist");
 	loadData();
 	$("#reload").click(function()
@@ -17,7 +18,6 @@ function loadData()
 	    jsonpCallback: "jsonCallback",
 	    type: "GET",
 	    success: function (data) {
-	        console.log(data);
 	        if(data.response.success == 0)
 	        {
 	        	if(!isNaN(parseInt(data.response.message.substring(74, 76))))
@@ -43,7 +43,7 @@ function loadData()
 		        		{
 		        			if(item.prices[11].Tradable.Craftable[0].currency == "metal")
 		        			{
-			        			console.log(name + ": " + item.prices[11].Tradable.Craftable[0].value);
+			        			// console.log(name + ": " + item.prices[11].Tradable.Craftable[0].value);
 			        			$table.append("<tr><td>Strange " + name + "</td><td>" + item.prices[11].Tradable.Craftable[0].value + " Refined Metal</td></tr>")
 		        			}
 		        		}
@@ -52,4 +52,21 @@ function loadData()
 	    	}
 	    }
 	});
+}
+
+function writeJSON()
+{
+	console.log('hi');
+	var fh = fopen("pricelist.txt", 3); // Open the file for writing
+	if(fh!=-1) // If the file has been successfully opened
+	{
+		console.log('sweg');
+		var str = "Some text goes here...";
+		fwrite(fh, str); // Write the string to a file
+		fclose(fh); // Close the file 
+	}
+	else
+	{
+		console.log('fuk');
+	}
 }
