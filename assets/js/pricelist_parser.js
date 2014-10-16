@@ -17,7 +17,8 @@ function loadData()
 	    dataType: "JSONP",
 	    jsonpCallback: "jsonCallback",
 	    type: "GET",
-	    success: function (data) {
+	    success: function (data)
+	    {
 	        if(data.response.success == 0)
 	        {
 	        	if(!isNaN(parseInt(data.response.message.substring(74, 76))))
@@ -43,6 +44,8 @@ function loadData()
 		        		{
 		        			if(item.prices[11].Tradable.Craftable[0].currency == "metal")
 		        			{
+		        				var data = "asdfasdfasdf";
+		        				writeJSON(data);
 			        			// console.log(name + ": " + item.prices[11].Tradable.Craftable[0].value);
 			        			$table.append("<tr><td>Strange " + name + "</td><td>" + item.prices[11].Tradable.Craftable[0].value + " Refined Metal</td></tr>")
 		        			}
@@ -54,19 +57,21 @@ function loadData()
 	});
 }
 
-function writeJSON()
+function writeJSON(data)
 {
-	console.log('hi');
-	var fh = fopen("pricelist.txt", 3); // Open the file for writing
-	if(fh!=-1) // If the file has been successfully opened
-	{
-		console.log('sweg');
-		var str = "Some text goes here...";
-		fwrite(fh, str); // Write the string to a file
-		fclose(fh); // Close the file 
-	}
-	else
-	{
-		console.log('fuk');
-	}
+	$.ajax({
+  		type: 'POST',
+  		url: 'test.txt',
+  		data: 'jkgfjkgjfkdgj',
+  		success: function()
+  		{
+  			console.log("Write successful");
+  		},
+  		error: function(XMLHttpRequest, textStatus, errorThrown)
+  		{ 
+        	console.log("Status: " + textStatus);
+        	console.log("Error: " + errorThrown); 
+    	},
+  		dataType: 'txt' //text/json...
+	});
 }
