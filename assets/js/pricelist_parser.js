@@ -1,7 +1,7 @@
 var $table;
 $(function()
 {
-	writeJSON();
+	// writeJSON();
 	$table = $("#buylist");
 	loadData();
 	$("#reload").click(function()
